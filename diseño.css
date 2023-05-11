@@ -1,0 +1,296 @@
+#jotaro{
+      height: 230px;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    #barra {
+        background-color:#1797A0;
+    }
+    #qq {
+      font-size: 1.2rem;
+    }
+    #goku{
+      border: solid black 1px;
+      margin-bottom: 5px;
+    }
+    #naruto{
+      height: 550%;
+       width: 100%;
+      margin-bottom: 5px;
+    }
+    #freezer{
+      height: 550%;
+       width: 100%;
+      margin-bottom: 5px;
+    }
+    .temp{
+      height: 250px;
+    }
+    #A {
+        background-color: aqua;
+        text-align: center;
+    }
+    #b:hover {
+        background-color: rgb(114, 14, 207);
+    }
+    #villanos{
+    text-align: center;
+    }
+    #A {
+        color: blueviolet;
+    }
+    #a:hover {
+       color: orangered;
+    }
+    #as{
+      background-color: rebeccapurple;
+    }
+     
+     #r{
+      margin-left:8px ;
+     }
+     
+     .nav-link {
+      margin-left: 8px;
+     }
+         #form {
+      width: 250px;
+      margin: 0 auto;
+      height: 50px;
+    }
+
+    #form p {
+      text-align: left;
+    }
+
+    #form label {
+      font-size: 20px;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    label {
+      color: grey;
+    }
+
+    .clasificacion {
+      direction: rtl;
+      unicode-bidi: bidi-override;
+    }
+
+    label:hover,
+    label:hover ~ label {
+      color: orange;
+    }
+
+    input[type="radio"]:checked ~ label {
+      color: orange;
+   }
+   .sr-only {
+    font-size: 1.1rem;
+   }
+
+    #imagen {
+        height: 50px;
+    }
+
+     #b:hover {
+            background-color: red;
+    }
+
+   #iconos {
+    margin-top: 6px;
+    margin-left: 3px;
+    height: 30px;
+   }
+
+
+
+    @media (max-width: 992px) {
+     #bit {
+    height: 250px;
+    margin-top: -300px;
+    width: 100%;
+       
+                           }
+   
+     #bat {
+     margin-top: -250px;
+    height: 400px;
+    width: 100%;
+       
+                           }
+    }
+
+    @media (min-width: 992px) {
+      #bit {
+    margin-top: -200px;
+    height: 300px;
+    width: 600px;
+      }
+    #bat {
+       margin-top: -256px;
+    height: 400px;
+    width: 600px;
+    }
+    }
+
+      @media (min-width: 400px) {
+      #goku {
+    transition: 0.5s;
+      }
+      #goku:hover{
+        transform: scale(1.2);
+      }
+    }
+
+    .ir-arriba {
+  display: none;
+  padding:20px;
+  background:#1797A0;
+  font-size:20px;
+  color:#fff;
+  cursor: pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  border-radius: 15px;
+}
+.ir-arriba:hover{
+background: darkcyan;
+-webkit-transition-duration: 1s;
+-moz-transition-duration: 1s;
+-o-transition-duration: 1s;
+transition-duration: 1s;
+}
+
+
+/*fondo de burbujas xd*/
+.burbujaperma{
+  bottom:20px;
+  right:20px; 
+  padding:20px;
+  position: fixed;
+}
+.burbuja{
+  display: ;
+    border-radius: 50%;
+    background: skyblue;
+    opacity: 0.4;
+
+    position: absolute;
+    bottom: 100;
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3.5s;
+
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 30%;
+    animation-duration: 4s;
+
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 4.5s;
+
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 4s;
+
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3.5s;
+
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 3s;
+
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 75%;
+    animation-duration: 3.5s;
+
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 4s;
+
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 4.5s;
+
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 4s;
+
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
