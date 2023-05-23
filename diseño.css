@@ -35,8 +35,9 @@
     }
     #villanos{
     text-align: center;
-    background-image: url(fondoheader.jpg);
     }
+    #fondoh{    background-image: url(fondoheader.jpg);
+}
     #A {
         color: blueviolet;
     }
