@@ -12,6 +12,7 @@
     #goku{
       border: solid black 1px;
       margin-bottom: 5px;
+      z-index: 100;
     }
     #naruto{
       height: 550%;
@@ -158,6 +159,7 @@
   bottom:20px;
   right:20px;
   border-radius: 15px;
+  z-index: 999;
 }
 .ir-arriba:hover{
 background: darkcyan;
