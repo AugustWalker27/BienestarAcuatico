@@ -107,45 +107,7 @@
     height: 30px;
    }
 
-/*
 
-    @media (max-width: 992px) {
-     #bit {
-    height: 250px;
-    margin-top: -300px;
-    width: 100%;
-       
-                           }
-   
-     #bat {
-     margin-top: -250px;
-    height: 400px;
-    width: 100%;
-       
-                           }
-    }
-
-    @media (min-width: 992px) {
-      #bit {
-    margin-top: -200px;
-    height: 300px;
-    width: 600px;
-      }
-    #bat {
-       margin-top: -256px;
-    height: 400px;
-    width: 600px;
-    }
-    }
-
-  @media (min-width: 400px) {
-      #goku {
-    transition: 0.5s;
-      }
-      #goku:hover{
-        transform: scale(1.2);
-      }
-    } */
 
     .ir-arriba {
   display: none;
