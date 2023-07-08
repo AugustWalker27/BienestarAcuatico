@@ -138,14 +138,14 @@
     }
     }
 
-      @media (min-width: 400px) {
+ /*     @media (min-width: 400px) {
       #goku {
     transition: 0.5s;
       }
       #goku:hover{
         transform: scale(1.2);
       }
-    }
+    } */
 
     .ir-arriba {
   display: none;
