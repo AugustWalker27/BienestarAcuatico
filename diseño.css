@@ -258,3 +258,12 @@ transition-duration: 1s;
         transform: translateY(0);
     }
 }
+/* Media query para pantallas más pequeñas (como celulares) */
+@media screen and (max-width: 768px) {
+    /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
+    #jotaro {
+        height: auto;
+    }
+    
+    /* Puedes agregar otros ajustes necesarios para pantallas pequeñas aquí */
+}
