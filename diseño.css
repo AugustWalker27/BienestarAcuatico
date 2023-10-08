@@ -264,6 +264,9 @@ transition-duration: 1s;
     #jotaro {
         height: auto;
     }
-    
+    #goku{
+      border: solid black 1px;
+      margin-bottom: 3px;
+    }
     /* Puedes agregar otros ajustes necesarios para pantallas pequeñas aquí */
 }
