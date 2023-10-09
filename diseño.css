@@ -259,7 +259,7 @@ transition-duration: 1s;
     }
 }
 /* Media query para pantallas más pequeñas (como celulares) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
        body {
         overflow-x: hidden;
