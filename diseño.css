@@ -261,6 +261,9 @@ transition-duration: 1s;
 /* Media query para pantallas más pequeñas (como celulares) */
 @media screen and (max-width: 768px) {
     /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
+       body {
+        overflow-x: hidden;
+    }
     #jotaro {
         height: auto;
     }
