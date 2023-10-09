@@ -263,17 +263,24 @@ transition-duration: 1s;
     }
 }
 /* Media query para pantallas más pequeñas (como celulares) */
+/* Media query para pantallas más pequeñas (como celulares) */
 @media screen and (max-width: 600px) {
     /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
-       body {
+    body {
         overflow-x: hidden;
     }
     #jotaro {
         height: auto;
     }
-    #goku{
-      border: solid black 1px;
-      margin-bottom: 3px;
+    #goku {
+        border: solid black 1px;
+        margin-bottom: 3px;
+    }
+    /* Ajusta el ancho de las imágenes para que se adapten al celular */
+    img {
+        width: 100%;
+        height: auto;
     }
     /* Puedes agregar otros ajustes necesarios para pantallas pequeñas aquí */
 }
+
