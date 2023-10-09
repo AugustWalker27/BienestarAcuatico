@@ -1,6 +1,7 @@
- body {
-        overflow-x: hidden;
-    }
+body{    
+   width:150%;
+   overflow-x: hidden;
+}
 #jotaro{
       height: 230px;
       width: 100%;
