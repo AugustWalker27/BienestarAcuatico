@@ -1,3 +1,6 @@
+ body {
+        overflow-x: hidden;
+    }
 #jotaro{
       height: 230px;
       width: 100%;
