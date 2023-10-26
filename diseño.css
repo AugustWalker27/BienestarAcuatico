@@ -1,6 +1,8 @@
 .letragrande{
 text-align: center;
-font-size: 25px;     
+font-size: 25px;    
+display: grid;
+align-items: center; 
 }
 #jotaro{
       height: 230px;
@@ -21,7 +23,7 @@ font-size: 25px;
     }
     .logo {
       margin-left: 20px;
-      max-width: 15%; /* La imagen nunca será más ancha que su contenedor */
+      max-width: 25%; /* La imagen nunca será más ancha que su contenedor */
       height: auto;   /* Ajusta automáticamente la altura para mantener la proporción */
   }
     #naruto{
@@ -45,15 +47,20 @@ font-size: 25px;
         background-color: rgb(114, 14, 207);
     }
     #villanos{
-      
+    color: #03dbfc;
+    margin: 0px;
     text-align: center;
     background-image: url('fondoheader.jpg');
+    font-family: fantasy;
+    font-size: 40px;
+     -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: black;
     }
-    #A {
-        color: blueviolet;
+    #a {
+        color: black;
     }
     #a:hover {
-       color: orangered;
+       color: white;
     }
     #as{
       background-color: rebeccapurple;
@@ -123,7 +130,7 @@ font-size: 25px;
     height: 30px;
    }
    #collapsibleNavbar{
-    margin-left:-500px;
+
    }
 
 
@@ -201,7 +208,7 @@ transition-duration: 1s;
     width: 50px;
     height: 50px;
     left: 90%;
-    animation-duration: 4s;
+    animation-duration: 4.2s;
 
 }
 
@@ -209,7 +216,7 @@ transition-duration: 1s;
     width: 70px;
     height: 70px;
     left: 65%;
-    animation-duration: 3.5s;
+    animation-duration: 3.3s;
 
 }
 
@@ -217,7 +224,7 @@ transition-duration: 1s;
     width: 20px;
     height: 20px;
     left: 50%;
-    animation-duration: 3s;
+    animation-duration: 3.1s;
 
 }
 
@@ -225,7 +232,7 @@ transition-duration: 1s;
     width: 20px;
     height: 20px;
     left: 75%;
-    animation-duration: 3.5s;
+    animation-duration: 3.4s;
 
 }
 
@@ -233,7 +240,7 @@ transition-duration: 1s;
     width: 100;
     height: 100px;
     left: 52%;
-    animation-duration: 4s;
+    animation-duration: 4.1s;
 
 }
 
@@ -241,7 +248,7 @@ transition-duration: 1s;
     width: 65px;
     height: 65px;
     left: 51%;
-    animation-duration: 4.5s;
+    animation-duration: 4.4s;
 
 }
 
@@ -291,9 +298,16 @@ transition-duration: 1s;
         overflow-x: hidden;
       
     }
+    .contraer{
+margin: 18px;
+    }
+    .span1{
+      margin: 8px;
+    }
     .logo {
-      margin-left: 20px;
-      max-width: 15%; /* La imagen nunca será más ancha que su contenedor */
+      float: right;
+      margin-right: 8px;
+      max-width: 20%; /* La imagen nunca será más ancha que su contenedor */
       height: auto;   /* Ajusta automáticamente la altura para mantener la proporción */
   }
     #jotaro {
