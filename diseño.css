@@ -15,6 +15,7 @@ margin-left: 10%;
     }
     #barra {
         background-color:#00979c;
+          border-bottom: solid black 1px;
     }
     
     #qq {
@@ -59,6 +60,7 @@ margin-left: 10%;
     font-size: 40px;
      -webkit-text-stroke-width: 1.3px;
   -webkit-text-stroke-color: black;
+          border-bottom: solid black 1px;
     }
     #a {
         color: black;
