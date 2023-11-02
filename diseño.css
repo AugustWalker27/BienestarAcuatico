@@ -1,12 +1,15 @@
-body{
-      font-size: 125%;
-}
-.letragrande{
+.fondo {
+background-image: url(eestn2.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+  }.letragrande{
 text-align: center;
 font-size: 25px;    
 display: grid;
 align-items: center;
-margin-left: 10%;
+margin-left: -200px; 
+z-index: 999;
 }
 #jotaro{
       height: 230px;
@@ -15,11 +18,12 @@ margin-left: 10%;
     }
     #barra {
         background-color:#00979c;
-          border-bottom: solid black 1px;
+        border-bottom: solid black 1px;
+
     }
     
     #qq {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
     #goku{
       border: solid black 1px;
@@ -28,7 +32,7 @@ margin-left: 10%;
     }
     .logo {
       margin-left: 20px;
-      max-width: 25%; /* La imagen nunca será más ancha que su contenedor */
+      max-width: 22%; /* La imagen nunca será más ancha que su contenedor */
       height: auto;   /* Ajusta automáticamente la altura para mantener la proporción */
   }
     #naruto{
@@ -42,11 +46,13 @@ margin-left: 10%;
       margin-bottom: 5px;
     }
     .temp{
-      height: 250px;
+      height: 300px;
+      width: auto;
     }
     #A {
         background-color: aqua;
         text-align: center;
+        margin-bottom: 5px;
     }
     #b:hover {
         background-color: rgb(114, 14, 207);
@@ -60,13 +66,21 @@ margin-left: 10%;
     font-size: 40px;
      -webkit-text-stroke-width: 1.3px;
   -webkit-text-stroke-color: black;
-          border-bottom: solid black 1px;
+  border-bottom: solid black 1px;
     }
-    #a {
-        color: black;
+    #índice{
+      color: black;
+      z-index: 999;
     }
-    #a:hover {
-       color: white;
+    #índice:hover{
+      color: white;
+    }
+    #documento {
+        color: blue;
+        z-index: 999;
+    }
+    #documento:hover {
+       color: darkblue;
     }
     #as{
       background-color: rebeccapurple;
@@ -117,6 +131,7 @@ margin-left: 10%;
    }
    .sr-only {
     font-size: 1.1rem;
+    margin: 10px;
    }
    #bat{
     width:600px;
@@ -303,6 +318,13 @@ transition-duration: 1s;
       
         overflow-x: hidden;
       
+    }
+      .temp{
+      height: auto;
+      width: 100%;
+    }
+    .separaciónfooter{
+    	margin: 10px;
     }
     .contraer{
 margin: 18px;
