@@ -321,6 +321,10 @@ transition-duration: 1s;
         overflow-x: hidden;
       
     }
+      #barra {
+        background-color:#00979c;
+        border-bottom: solid black 1px;
+        paddding: 1px;
     .letragrande{
 text-align: center;
 font-size: 25px;    
@@ -352,8 +356,8 @@ margin: 18px;
       float: right;
       margin-right: 8px;
     object-fit: cover;
-  width:100%;
-  height:100%;
+  width: auto;
+  height:20%;
       display: flex;
       align-items: center;
   }
