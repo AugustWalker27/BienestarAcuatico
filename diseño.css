@@ -1,9 +1,10 @@
-.fondo {
+.fondo  {
 background-image: url(eestn2.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
-  }.letragrande{
+  }
+.letragrande{
 text-align: center;
 font-size: 25px;    
 display: grid;
@@ -319,11 +320,20 @@ transition-duration: 1s;
         overflow-x: hidden;
       
     }
-  .fondo {
+    .letragrande{
+text-align: center;
+font-size: 25px;    
+display: grid;
+align-items: center;
+margin-left: -200px; 
+z-index: 999;
+}
+    .fondo {
 background-image: url(eestn2.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-position: center;}
+background-position: center;
+}
       .temp{
       height: auto;
       width: 100%;
