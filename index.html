@@ -29,7 +29,8 @@
   <header>
 
 </header>
-  <body class="tu-contenedor">
+  <body class="fondo">
+    
  <span class="ir-arriba">Subir ↑</span>
 <div id="villanos">
   <h2 id="villanos">Bienestar Acuático S.A.</h2>
@@ -43,13 +44,13 @@
   <div class="collapse navbar-collapse letragrande" id="collapsibleNavbar">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#sopas" id="a">Sobre la tecnología Arduino</a>
+        <a class="nav-link" href="#sopas" id="índice">Sobre la tecnología Arduino</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#sapos" id="a">Elementos y dispositivos</a>
+        <a class="nav-link" href="#sapos" id="índice">Elementos y dispositivos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#asd" id="a">Simulación y puesta en práctica del conexionado</a>
+        <a class="nav-link" href="#asd" id="índice">Simulación y puesta en práctica del conexionado</a>
       </li> 
     </ul>
   </div>  
@@ -58,49 +59,48 @@
   <div class="row">
     <div class="col-sm-12">
 	  
-          
+          <div class="tu-contenedor">
           </audio>
       <h2>Introducción</h2>
       
       <h5></h5>
-      <p id="qq">El objetivo de este proyecto es, utilizando los medios que nos proporciona la informática, crear un ambiente saludable y sostenible para los organismos que habiten en una pecera doméstica, y proporcionar una experiencia agradable y satisfactoria para el propietario. Los organismos acuáticos, como los peces, las plantas y otros invertebrados, dependen de un ambiente acuático saludable para sobrevivir y prosperar, entonces es ahí donde decidimos interferir.
-
-      En este proyecto, utilizaremos Arduino para crear un sistema automatizado que puede controlar una serie de dispositivos y sensores. Arduino es una plataforma de código abierto que permite a los usuarios crear prototipos de electrónica de manera fácil y accesible. Comenzaremos con una introducción básica a Arduino, incluyendo cómo instalar el software necesario y cómo programar el microcontrolador.
+        <p id="qq">Hola! Somos 4 estudiantes de la Escuela de Educación Secundaria Técnica N°2, ubicada la ciudad de Tandil. A través de la realización de éste proyecto buscamos concientizar a la sociedad acerca de la importancia de cuidar correctamente a los peces y demás organismos acuáticos, para que se entienda que no basta con darles comida un par de
+     veces al día, necesitan más cuidados para vivir plenamente. Decidimos crear una solución para eso desde nuestra posición.</p>
+      <p id="qq">El objetivo de este proyecto es, utilizando los medios que nos proporciona la informática, crear un ambiente saludable y sostenible para los organismos que habiten en una pecera doméstica, y proporcionar una experiencia agradable y satisfactoria para el propietario. Los organismos acuáticos, como los peces, las plantas y otros invertebrados, dependen de un ambiente acuático saludable para sobrevivir y prosperar, entonces es ahí donde decidimos interferir, con un sistema al que llamamos provisoriamente <a style="text-decoration: underline">HydroTech Solution</a>.
+Utilizamos Arduino para crear un sistema automatizado que pueda controlar una serie de dispositivos y sensores, pero...
      </p>
       <h2 id="sopas">¿Qué es Arduino?</h2>
         <div>
            <img id="goku" src="arduino.jpeg">
        </div>
       <p></p>
-      <p id="qq">Arduino es una plataforma de hardware y software de código abierto que se utiliza para diseñar y desarrollar proyectos electrónicos interactivos. La plataforma consiste en una placa de circuito impreso que incluye un microcontrolador programable y un conjunto de pines de entrada y salida que permiten la conexión de sensores, actuadores y otros componentes electrónicos. Además, existen diferentes variantes de la placa Arduino, cada una con diferentes especificaciones y características, lo que permite a los usuarios seleccionar la placa adecuada para su proyecto. Aunque Arduino tiene su propio lenguaje, está basado en el lenguaje C++.</p>
-      <h5>Entonces, ¿Cuál Arduino usaremos? </h5>
+      <p id="qq">Arduino es una plataforma de hardware y software de código abierto que se utiliza para diseñar y desarrollar proyectos electrónicos interactivos. La plataforma consiste en una placa de circuito impreso que incluye un microcontrolador programable y un conjunto de pines de entrada y salida que permiten la conexión de sensores, actuadores y otros componentes electrónicos. Además, existen diferentes variantes de la placa Arduino, como Arduino UNO, Leonardo, NANO y MEGA 2560, cada una con diferentes especificaciones y características, lo que permite a los usuarios seleccionar la placa adecuada para su proyecto. Aunque Arduino tiene su propio lenguaje de programación, está basado en el lenguaje C++.</p>
+      <h3>Entonces, ¿Cuál Arduino usaremos? </h3>
       <p id="qq">
-      El Arduino Uno es una placa de desarrollo para proyectos pequeños que no requieren una gran cantidad de entradas/salidas, motivo por el cual no es conveniente para nosotros implementarlo, ya que requerimos una gran cantidad de pines. El Arduino Mega, en cambio, es una placa de desarrollo versátil y poderosa que ofrece una gran cantidad de pines de entrada/salida, memoria y potencia de procesamiento. Es ideal para proyectos más grandes y complejos que requieren una gran cantidad de entradas/salidas o que necesitan procesar una gran cantidad de datos. Aunque es más caro que otras placas de desarrollo de Arduino, la capacidad adicional que ofrece lo convierte en una opción popular para proyectos avanzados, como el nuestro.
+      El Arduino Uno es una placa de desarrollo para proyectos pequeños que no requieren una gran cantidad de entradas/salidas, motivo por el cual no es conveniente para nosotros implementarlo, ya que requerimos una gran cantidad de pines. El Arduino MEGA, en cambio, es una placa de desarrollo versátil y poderosa que ofrece una gran cantidad de pines de entrada/salida, memoria y potencia de procesamiento. Es ideal para proyectos más grandes y complejos que requieren una gran cantidad de entradas/salidas o que necesitan procesar una gran cantidad de datos. Aunque es más caro que otras placas de desarrollo de Arduino, la capacidad adicional que ofrece lo convierte en una opción popular para proyectos avanzados, como el nuestro.
       Como conclusión final podemos decir que el Arduino MEGA 2560 es la solución ideal cuando un Arduino UNO se queda pequeño en un proyecto, el cuál se puede apreciar en una imágen más arriba.
       </p>
     
       <h2 id="sapos">¿Que elementos utilizaremos?</h2>
       <p></p>
-       <h3>Sensores</h3>
        <p id="qq">
       Los sensores son componentes clave en cualquier sistema electrónico y son particularmente importantes en los proyectos de Arduino. Estos dispositivos pueden detectar cambios en el entorno, como la luz, la temperatura, el sonido, la humedad, la presión y el movimiento, y proporcionar información útil para controlar otros componentes.
-      Cada sensor tiene sus propias características y capacidades únicas, lo que los hace adecuados para diferentes tipos de proyectos. En nuestro caso consideramos varios tipos de estos, como por ejemplo, el sensor de temperatura sumergible, de turbidez, de luminosidad, nivel de agua, de distancia y de PH. 
-      Estos dos últimos fueron descartados por distintos motivos, como la falta de propósito y de presupuesto respectivamente.</p>
-      <h5>Sensor de temperatura sumergible (DS18B20)</h5>
+      Pero no son los únicos elementos significativos que vamos a utilizar, a continuación detallaremos cada elemento con su utilidad.
+      </p>
+      <h3>Sensor de temperatura sumergible (DS18B20)</h3>
       <div>
            <img id="goku" class="temp" src="acade.jpg">
        </div>
        <p id="qq">
-      El sensor de temperatura DS18B20 es uno de los sensores más versátiles que puedes encontrar en el mercado. Este sensor es idóneo cuando queremos medir la temperatura en ambientes húmedos e incluso dentro del agua. Quizás lo más complicado sea la programación ya que utiliza un protocolo poco común dentro del mundo de Arduino, 1-Wire. Gracias a las librerías de Arduino, la programación 
-      resulta muy sencilla.
-      El DS18B20 puede medir temperaturas entre -55ºC y 125ºC. Es un rango muy amplio sin embargo, no en todo el rango tenemos el mismo error. Además de medir la temperatura, el DS18B20 incorpora una memoria de 64-bit (equivalente a 8 bytes) para almacenar el identificador o dirección única de cada sensor. Esta dirección única es necesaria dentro del bus 1-Wire para identificar cada uno de los sensores de temperatura DS18B20 conectados al bus de comunicación.</p>
-      <h5>Sensor de Turbidez (sen0189)</h5>
+      El sensor de temperatura DS18B20 es uno de los sensores más versátiles que se pueden encontrar en el mercado. Gracias a su punta de acero inoxidable, es capaz de medir la temperatura en ambientes húmedos y en líquidos, como en este caso, que va desde los -55ºC hasta los 125ºC.</p>
+      <h3>Sensor de Turbidez (sen0189)</h3>
       <div>
            <img id="goku" src="turbio.jpg">
        </div>
       <p id="qq">
-      Los sensores de turbidez miden los niveles de calidad del agua al registrar los niveles de turbidez. Utilizan luz para detectar las diferentes partículas suspendidas en el agua al medir las tasas de dispersión y transmitancia, las cuales cambian con las diferentes cantidades totales de sólidos suspendidos (TSS) en el agua. El factor TTS incrementará si aumentan los niveles de turbidez en el líquido.</p>
-      <p id="asd"style="font-size: 1.2rem;">A continuación presentaremos un prototipo, creado con el programa simulador “Fritzing”, de la conexión de sensores para nuestro sistema de cuidado de peceras que permite la medición en tiempo real de los parámetros críticos del agua. Este sistema utiliza una variedad de sensores, como sensores de temperatura, de turbidez y de luminosidad.
+      Los sensores de turbidez miden los niveles de calidad del agua al registrar los niveles de turbidez. Utilizan luz infrarroja para detectar las diferentes partículas suspendidas en el agua al medir las tasas de dispersión y transmitancia, las cuales cambian con las diferentes cantidades totales de sólidos suspendidos (TSS) en el agua. Los niveles de turbidez El factor TTS incrementará si aumentan  en el líquido.</p>
+      <h2>Armados y prototipos</h2>
+      <p id="qq">A continuación presentaremos un prototipo, creado con el programa simulador “Fritzing”, de la conexión de sensores para nuestro sistema de cuidado de peceras que permite la medición en tiempo real de los parámetros críticos del agua. Este sistema utiliza una variedad de sensores, como sensores de temperatura, de turbidez y de luminosidad.
       <div>
            <img id="goku" src="real.jpg">
        </div>
@@ -125,44 +125,7 @@
   <div class="row">
     <div style="margin-bottom:0" >
     <div class="col-sm-12">
-      <ul class="nav nav-pills">
-    <li class="nav-item">
-        <a class="nav-link " href="#datos" data-toggle="tab">Sobre nosotros</a>
-    </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#actores" data-toggle="tab">Objetivo, misión y visión</a>
-    </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#JAJA" data-toggle="tab">Analisis FODA</a>
-    </li>
-</ul>
 <p></p>
-<div class="tab-pane fade" id="datos"style="margin-left:20px">
-  <h2>Sobre nosotros</h2>
-  <p id="pp">Buen día, somos 4 alumnos de la Escuela Técnica Número 2, ubicada en el partido de Tandil, en el centro-este de l
-    a provincia de Buenos Aires. Como se explica en la sección "Introducción", y como podrán seguir informándose al acceder 
-	  a <a download="Bienestar Acuatico S.A." href="Trabajo práctico N°4.docx" id="a"> éste documento</a>
-    , queremos realizar éste proyecto para concientizar a la sociedad sobre la importancia de cuidar correcta
-    mente a los peces y demás organismos acuáticos, para que se entienda que no basta con darles comida un par de
-     veces al día, necesitan más cuidados y nosotros queremos crear una ayuda para ello desde nuestro lugar, e
-     ntendiendo nuestras limitaciones. Sin más, esperemos que sea de su agrado. Saludos cordiales. </p>
-     <img src="what.png" id="iconos">
-      <img src="IG.png" id="iconos">
-      <img src="face.png" id="iconos">
-      <img src="mess.png" id="iconos">
-      <img src="twitter.png" id="iconos">
-      <img src="tele.png" id="iconos">
-      <img src="compartir.png" id="iconos">
-</div>
-    <div class="tab-pane fade" id="actores">
-        <img src="obje.jpg" id="bat">
-    </div>
-    <div class="tab-pane fade" id="JAJA">
-      <img src="foda.jpg" id="bat">
-    </div>  
-
-
-
 
       <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
       <a  class="dropdown-item" href="#">Activo</a>
@@ -172,7 +135,7 @@
     </div>
     <p>
     <form class="form-inline">
-    <div  class="form-group mx-sm-1">
+    <div class="form-group mx-sm-1">
     <p  for="inputUser" class="sr-only">Lector</p>
     <input  type="text" class="form-control"  id="inputUser"  placeholder="Danos tu opinión">
     </div>
@@ -201,7 +164,7 @@
     <br>
     Contacto: 2494217873 E-mail: bienestaracuatico19@gmail.com 
   </p>
-<span class="burbujaperma"style="width:100%;">
+<span class="burbujaperma" style="width:100%;">
   <div class="burbujas">
     <div class="burbuja"></div>
     <div class="burbuja"></div>
@@ -214,6 +177,5 @@
     <div class="burbuja"></div>
   </div>
 </span>
-</div>
 </body>
 </html>
