@@ -1,4 +1,4 @@
-.fondo  {
+.fondo {
 background-image: url(eestn2.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -323,7 +323,7 @@ transition-duration: 1s;
     .letragrande{
 text-align: center;
 font-size: 25px;    
-display: grid;
+display: flex;
 align-items: center;
 margin-left: -200px; 
 z-index: 999;
@@ -352,6 +352,8 @@ margin: 18px;
       margin-right: 8px;
       max-width: 20%; /* La imagen nunca será más ancha que su contenedor */
       height: auto;   /* Ajusta automáticamente la altura para mantener la proporción */
+      display: flex;
+      align-items: center;
   }
     #jotaro {
         height: auto;
