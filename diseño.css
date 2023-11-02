@@ -319,6 +319,11 @@ transition-duration: 1s;
         overflow-x: hidden;
       
     }
+  .fondo {
+background-image: url(eestn2.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;}
       .temp{
       height: auto;
       width: 100%;
