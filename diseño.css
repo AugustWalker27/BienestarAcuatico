@@ -33,7 +33,7 @@ z-index: 999;
     }
     .logo {
       margin-left: 20px;
-      max-widht: 22px; /* La imagen nunca será más ancha que su contenedor */
+      widht: 22px; /* La imagen nunca será más ancha que su contenedor */
    /* Ajusta automáticamente la altura para mantener la proporción */
   }
     #naruto{
