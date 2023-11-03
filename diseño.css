@@ -313,11 +313,9 @@ transition-duration: 1s;
 }
 /* Media query para pantallas más pequeñas (como celulares) */
 /* Media query para pantallas más pequeñas (como celulares) */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 800px) {
     /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
     body {
-      
-        overflow-x: hidden;
       
     }
     .letragrande{
@@ -353,7 +351,7 @@ margin: 18px;
         object-fit: cover;
   width: auto;
   height:20%;
-      display: flex;
+      display: row;
       align-items: center;
   }
     #jotaro {
