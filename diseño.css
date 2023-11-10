@@ -12,14 +12,37 @@ align-items: center;
 margin-left: -200px; 
 z-index: 999;
 }
+.feriait1{
+  max-width: 100%;
+  width: 400px;
+  border: solid black 1px;
+}
+.feriait2{
+  max-width: 100%;
+  width: 555px;
+  border: solid black 1px;
+}
+.feriait3{
+  max-width: 100%;
+  width: 959px;
+  border: solid black 1px;
+  align-items: center;
+  margin-top: 5px;
+}
+.diagramas{
+  margin-top: 5px;
+  width: 900px;
+  max-width: 100%;
+  border: solid black 1px;
+}
 #elementos1{
-  width: 573px;
+  width: 574px;
   max-width: 100%;
   margin-bottom: 5px;
   border: solid black 1px;
 }
 #practurbio{
-  width: 573px;
+  width: 574px;
   max-width: 100%;
   margin-bottom: 5px;
   border: solid black 1px;
@@ -98,6 +121,7 @@ z-index: 999;
   -webkit-text-stroke-color: black;
   border-bottom: solid black 1px;
     }
+
     #índice{
       color: black;
       z-index: 999;
@@ -120,8 +144,8 @@ z-index: 999;
       margin-left:8px ;
      }
      
-     .nav-link {
-      margin-left: 8px;
+     .nav-item {
+      z-index: 999;
 
      }
          #form {
