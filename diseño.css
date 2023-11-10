@@ -12,6 +12,35 @@ align-items: center;
 margin-left: -200px; 
 z-index: 999;
 }
+#elementos1{
+  width: 573px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  border: solid black 1px;
+}
+#practurbio{
+  width: 573px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  border: solid black 1px;
+}
+#tempractica{
+  width: 380px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  margin-left: 8%
+}
+#pvc{
+  width: 350px;
+  max-width: 100%;
+  border: solid black 1px;
+}
+#machohembra{
+  width: 350px;
+  max-width: 100%;
+  border: solid black 1px;
+}
 #jotaro{
       height: 230px;
       width: 100%;
@@ -333,6 +362,12 @@ background-image: url(eestn2.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
+}
+#tempractica{
+  height: auto;
+      width: 100%;
+      border: solid black 1px;
+      margin-left: 0px;
 }
       .temp{
       height: auto;
