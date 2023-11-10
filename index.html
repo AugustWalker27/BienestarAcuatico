@@ -37,7 +37,7 @@
 </div>
 <nav class="navbar navbar-expand-sm navbar-info" id="barra">
 
-   <a class="navbar-logo"><img src="logito.jpg" class="logo" style="max-widht: 22%; height: auto;">
+   <a class="navbar-logo"><img src="logito.jpg" class="logo">
   <button class="navbar-toggler contraer" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
  <span class="navbar-toggler-icon span1"></span>
   </button></a>
@@ -87,34 +87,63 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
       Los sensores son componentes clave en cualquier sistema electrónico y son particularmente importantes en los proyectos de Arduino. Estos dispositivos pueden detectar cambios en el entorno, como la luz, la temperatura, el sonido, la humedad, la presión y el movimiento, y proporcionar información útil para controlar otros componentes.
       Pero no son los únicos elementos significativos que vamos a utilizar, a continuación detallaremos cada elemento con su utilidad.
       </p>
-      <h3>Sensor de temperatura sumergible (DS18B20)</h3>
+      <h3>Sensor de temperatura sumergible</h3>
       <div>
            <img id="goku" class="temp" src="acade.jpg">
        </div>
        <p id="qq">
       El sensor de temperatura DS18B20 es uno de los sensores más versátiles que se pueden encontrar en el mercado. Gracias a su punta de acero inoxidable, es capaz de medir la temperatura en ambientes húmedos y en líquidos, como en este caso, que va desde los -55ºC hasta los 125ºC.</p>
-      <h3>Sensor de Turbidez (sen0189)</h3>
+
+      <h3>Sensor de Turbidez</h3>
       <div>
-           <img id="goku" src="turbio.jpg">
+           <img id="goku" src="turtur.jpg">
        </div>
       <p id="qq">
-      Los sensores de turbidez miden los niveles de calidad del agua al registrar los niveles de turbidez. Utilizan luz infrarroja para detectar las diferentes partículas suspendidas en el agua al medir las tasas de dispersión y transmitancia, las cuales cambian con las diferentes cantidades totales de sólidos suspendidos (TSS) en el agua. Los niveles de turbidez El factor TTS incrementará si aumentan  en el líquido.</p>
-      <h2>Armados y prototipos</h2>
-      <p id="qq">A continuación presentaremos un prototipo, creado con el programa simulador “Fritzing”, de la conexión de sensores para nuestro sistema de cuidado de peceras que permite la medición en tiempo real de los parámetros críticos del agua. Este sistema utiliza una variedad de sensores, como sensores de temperatura, de turbidez y de luminosidad.
+      Los sensores de turbidez miden los niveles de calidad del agua al registrar los niveles de pureza. Utilizan luz infrarroja para detectar las diferentes partículas suspendidas en el agua al medir las tasas de dispersión y transmitancia, las cuales cambian con las diferentes cantidades totales de sólidos suspendidos (TSS) en el agua. El factor TTS incrementará si éstos aumentan en el líquido.</p>
+
+      <h3>Bomba de agua sumergible</h3>
+      <div>
+           <img id="goku" src="bomba.png">
+       </div>
+      <p id="qq">
+      Es un dispositivo electromecánico totalmente sumergible que utilizaremos para crear un sistema de flujo de agua bidireccional, que reemplace el agua cuando cumpla una condición de impureza, como temperatura muy alta o que esté muy sucia, e inserte nuevo contenido con agua limpia. Cabe aclarar que utilizaremos uno por cada operación, entrada y salida.
+      </p>
+
+      <h3>Relé</h3>
+      <img id="goku" src="relé.jpg">
+      </div>
+      <p id="qq">
+      Es un dispositivo electromagnético. Funciona como un interruptor controlado por un circuito eléctrico en el que, por medio de una bobina y un electroimán, se acciona un juego de uno o varios contactos que permiten abrir o cerrar otros circuitos eléctricos independientes. Lo utilizaremos como suplemento para el sistema de bombas.
+      </p>
+
+      <h3>Cables</h3>
+      <img id="machohembra" src="cables.jpg">
+      </div>
+      <p id="qq">
+      El tipo de cable que utilizaremos contiene distintas clases de conectores incorporados, denominados resumidamente como “macho”, “hembra” y “macho-hembra”, que utilizaremos para realizar las conexiones entre los módulos principales, como el Arduino y los sensores. 
+      </p>
+
+      <h3>Tubo PVC</h3>
+      <img id="pvc" src="tubo.jpg">
+      </div>
+      <p id="qq">
+      El PVC, ampliamente conocido como policloruro de vinilo, es un material formado a partir de la combinación química de carbono, hidrógeno y cloro. Lo acoplaremos a las bombas para hacer posible el flujo del agua. 
+      </p>
+
+      <h2 id=asd>Simulación del prototipo</h2>
+      <p id="qq">A continuación presentaremos un prototipo, creado con el programa simulador “Fritzing”, de la conexión de sensores para nuestro sistema de cuidado de peceras que permite la medición en tiempo real de los parámetros críticos del agua, que incluye los sensores de temperatura y turbidez.
       <div>
            <img id="goku" src="real.jpg">
        </div>
-       <p id="qq">Como se puede observar, es un prototipo incompleto y bastante rudimentario pero que sirve para observar cómo vamos avanzando en este proyecto. Ahora les presentaremos la totalidad de los elementos que conseguimos hasta éste momento, entre ellos hay resistencias, un protoboard, cables y algunos de los sensores que mencionamos, junto al infaltable Arduino.</p>
+       <p id="qq">Como se puede observar, es un prototipo bastante simple y previo a la obtención de los elementos físicos, con los elementos que teníamos planeado utilizar hasta ese momento, sin embargo, nos ayudó a adelantar el diseño, lo que nos ahorró algo de tiempo en el momento en que adquirimos los componentes físicos.</p>
 
-     <h2>Elementos y dispositivos qué ya hemos obtenido</h2>
-      <div>
-           <img id="goku" src="prototipo.png">
-       </div>
      <h2 > Armado práctico del prototipo</h2>
-     <p id="qq">Aquí tomamos algunas fotos del primer día que empezamos a interactuar (y experimentar) con el Arduino y demás dispositivos.</p>
-      <div>
-           <img id="goku" src="foto.jpg">
-           <img id="goku" src="foto2.jpg">
+     <p id="qq">Aquí tomamos algunas fotos de los primeros días que empezamos a interactuar (y experimentar) con el Arduino y demás dispositivos ya adquiridos.</p>
+      <div><img id="elementos1" src="prototipo.png"></div>
+      <div><img id="goku" src="foto.jpg">
+           <img id="goku" src="foto2.jpg"></div>
+           <img id="practurbio" src="original3.jpg">
+       <div><img id="tempractica" src="tempgif.jpg">
        </div>
 
 
@@ -126,8 +155,7 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
     <div style="margin-bottom:0" >
     <div class="col-sm-12">
 <p></p>
-
-      <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <div  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
       <a  class="dropdown-item" href="#">Activo</a>
       <a  class="dropdown-item" href="#">Vínculo</a>
       <a  class="dropdown-item" href="#">Vínculo</a>
