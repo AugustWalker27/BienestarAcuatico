@@ -75,7 +75,7 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
        </div>
       <p></p>
       <p id="qq">Arduino es una plataforma de hardware y software de código abierto que se utiliza para diseñar y desarrollar proyectos electrónicos interactivos. La plataforma consiste en una placa de circuito impreso que incluye un microcontrolador programable y un conjunto de pines de entrada y salida que permiten la conexión de sensores, actuadores y otros componentes electrónicos. Además, existen diferentes variantes de la placa Arduino, como Arduino UNO, Leonardo, NANO y MEGA 2560, cada una con diferentes especificaciones y características, lo que permite a los usuarios seleccionar la placa adecuada para su proyecto. Aunque Arduino tiene su propio lenguaje de programación, está basado en el lenguaje C++.</p>
-      <h3>Entonces, ¿Cuál Arduino usaremos? </h3>
+      <h2>Entonces, ¿Cuál Arduino usaremos? </h2>
       <p id="qq">
       El Arduino Uno es una placa de desarrollo para proyectos pequeños que no requieren una gran cantidad de entradas/salidas, motivo por el cual no es conveniente para nosotros implementarlo, ya que requerimos una gran cantidad de pines. El Arduino MEGA, en cambio, es una placa de desarrollo versátil y poderosa que ofrece una gran cantidad de pines de entrada/salida, memoria y potencia de procesamiento. Es ideal para proyectos más grandes y complejos que requieren una gran cantidad de entradas/salidas o que necesitan procesar una gran cantidad de datos. Aunque es más caro que otras placas de desarrollo de Arduino, la capacidad adicional que ofrece lo convierte en una opción popular para proyectos avanzados, como el nuestro.
       Como conclusión final podemos decir que el Arduino MEGA 2560 es la solución ideal cuando un Arduino UNO se queda pequeño en un proyecto, el cuál se puede apreciar en una imágen más arriba.
@@ -93,14 +93,18 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
        </div>
        <p id="qq">
       El sensor de temperatura DS18B20 es uno de los sensores más versátiles que se pueden encontrar en el mercado. Gracias a su punta de acero inoxidable, es capaz de medir la temperatura en ambientes húmedos y en líquidos, como en este caso, que va desde los -55ºC hasta los 125ºC.</p>
-
+      <p id="qq">A continuación, podrán ver una animación que demuestra su funcionamiento</p>
+<video class="videotemp" src="multimedia1.mp4" autoplay muted loop></video>
+<p id="qq">Como podemos ver, tanto en contacto con el aire como en contacto con el agua, lee los valores de temperatura desde la punta de acero inoxidable.</p>
       <h2>Sensor de Turbidez</h2>
       <div>
            <img id="goku" src="turtur.jpg">
        </div>
       <p id="qq">
       Los sensores de turbidez miden los niveles de calidad del agua al registrar los niveles de pureza. Utilizan luz infrarroja para detectar las diferentes partículas suspendidas en el agua al medir las tasas de dispersión y transmitancia, las cuales cambian con las diferentes cantidades totales de sólidos suspendidos (TSS) en el agua. El factor TTS incrementará si éstos aumentan en el líquido.</p>
-
+      <p id="qq">Como mostramos anteriormente, tenemos otra animación para demuestrar su funcionamiento</p>
+<video class="videotemp" src="multimedia2.mp4" autoplay muted loop></video>
+<p id="qq">La punta de plástico detecta los niveles de pureza al entrar en contacto con el agua. La lectura es muy irregular y no tiene una unidad de medida exacta cono los grados celsius, debido a ciertas calibraciones en el código. Para entender la lectura de manera simple, es más alta cuando el agua está limpia, y disminuye cuando el agua está turbia.</p>
       <h2>Bomba de agua sumergible</h2>
       <div>
            <img id="goku" src="bomba.png">
@@ -108,23 +112,25 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
       <p id="qq">
       Es un dispositivo electromecánico totalmente sumergible que utilizaremos para crear un sistema de flujo de agua bidireccional, que reemplace el agua cuando cumpla una condición de impureza, como temperatura muy alta o que esté muy sucia, e inserte nuevo contenido con agua limpia. Cabe aclarar que utilizaremos uno por cada operación, entrada y salida.
       </p>
-
+      <p id="qq">Ésta animación ilustra de mejor manera lo explicado</p>
+<video class="videobomba" src="bomba2.mp4" autoplay muted loop></video>
+<p id="qq">Del lado izquierdo vemos el repiciente con agua limpia y una bomba dentro lista para renovar el agua de la pecera a través de un conducto, a la derecha, dentro de la pecera, otra bomba que servirá para sustraer el agua a un recipiente vacío.</p>
       <h2>Relé</h2>
       <img id="goku" src="relé.jpg">
       </div>
       <p id="qq">
-      Es un dispositivo electromagnético. Funciona como un interruptor controlado por un circuito eléctrico en el que, por medio de una bobina y un electroimán, se acciona un juego de uno o varios contactos que permiten abrir o cerrar otros circuitos eléctricos independientes. Lo utilizaremos como suplemento para el sistema de bombas.
+      Es un pequeño dispositivo electromagnético. Funciona como un interruptor controlado por un circuito eléctrico en el que, por medio de una bobina y un electroimán, se acciona un juego de uno o varios contactos que permiten abrir o cerrar otros circuitos eléctricos independientes. Lo utilizaremos como suplemento para el sistema de bombas.
       </p>
 
       <h2>Cables</h2>
-      <img id="machohembra" src="Cables.jpg">
+      <img id="machohembra" src="cables.jpg">
       </div>
       <p id="qq">
       El tipo de cable que utilizaremos contiene distintas clases de conectores incorporados, denominados resumidamente como “macho”, “hembra” y “macho-hembra”, que utilizaremos para realizar las conexiones entre los módulos principales, como el Arduino y los sensores. 
       </p>
 
       <h2>Tubo PVC</h2>
-      <img id="pvc" src="Tubo.jpg">
+      <img id="pvc" src="tubo.jpg">
       </div>
       <p id="qq">
       El PVC, ampliamente conocido como policloruro de vinilo, es un material formado a partir de la combinación química de carbono, hidrógeno y cloro. Lo acoplaremos a las bombas para hacer posible el flujo del agua. 
@@ -136,7 +142,9 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
            <img id="goku" src="real.jpg">
        </div>
        <p id="qq">Como se puede observar, es un prototipo bastante simple y previo a la obtención de los elementos físicos, con los elementos que teníamos planeado utilizar hasta ese momento, sin embargo, nos ayudó a adelantar el diseño, lo que nos ahorró algo de tiempo en el momento en que adquirimos los componentes físicos.</p>
-
+       <p id="qq">A continuación, un esquema de cómo nos gustaría que se viera el producto completo una vez ensamblado.</p>
+<img class="esquema" src="esquema.png">
+<p><p id="qq">A la izquierda, tendríamos una caja contenedora con todo el conexionado del Arduino que pueda acoplarse a la pecera, la cual también tendría una abertura para darle paso a sensores y a los cables conectados a las bombas. Las bombas se pueden ver a la derecha, implementadas como se explicó anteriormente
      <h1> Armado práctico del prototipo</h1>
      <p id="qq">Aquí tomamos algunas fotos de los primeros días que empezamos a interactuar (y experimentar) con el Arduino y demás dispositivos ya adquiridos.</p>
       <div><img id="elementos1" src="prototipo.png"></div>
@@ -146,7 +154,7 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
        <div><img id="tempractica" src="tempgif.jpg">
        </div>
 
-     <h1>Primera puesta en práctica</h1>
+     <p><h1>Primera puesta en práctica</h1>
      <p id="qq">Éstas imágenes muestran la primera puesta en práctica del sistema completo, mostrada durante la feria IT.</p>
 <div>
 <img class="feriait1" src="it1.jpeg">
@@ -158,13 +166,13 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
     <div style="margin-bottom:0" >
     <div class="col-sm-12">
 
-<h1>Diagramas</h1>
+<p><h1>Diagramas</h1>
 <p id="qq">En ésta sección hay una serie de diagramas para visualizar el sistema desde diferentes perspectivas, haga click en uno de los botones para verlos.</p>
 <div class="row">
     <div class="col-sm-12">
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills" role="tablist">
     <li class="nav-item">
-        <a class="nav-link" href="#diagflujo" data-toggle="tab"><h3>Diagrama de flujo</h3></a>
+        <a class="nav-link active" href="#diagflujo" data-toggle="tab"><h3>Diagrama de flujo</h3></a>
     </li>
       <li class="nav-item">
         <a class="nav-link" href="#diagcasos" data-toggle="tab"><h3>Diagrama de casos de uso UML</h3></a>
@@ -173,15 +181,19 @@ Utilizamos Arduino para crear un sistema automatizado que pueda controlar una se
         <a class="nav-link" href="#diagclases" data-toggle="tab"><h3>Diagrama de clases UML</h3></a>
     </li>
 </ul>
-<div class="tab-pane fade" id="diagflujo"><img src="DDFLUJOPPTX.png" class="diagramas"></div>
-<div class="tab-pane fade" id="diagcasos"><img src="Casos de uso DEFINITIVO.png" class="diagramas"></div>
-<div class="tab-pane fade" id="diagclases"><img src="UML DEFINITIVO Renovado final.png" class="diagramas"></div>
+<div class="tab-pane fade show active" id="diagflujo"><img src="DDFLUJOPPTX.png" class="diagramas">
+<p><p id="qq">Éste diagrama muestra de manera simple el funcionamiento del sistema, al iniciar, se toman las lecturas de ambos sensores, si el valor de temperatura es muy alto o bajo, o el valor de turbidez es muy alto, se activará el ciclo de reemplazo de agua, caso contrario, con un segundo de diferenca, los datos se vuelven a leer.</p></div>
+<div class="tab-pane fade" id="diagcasos"><img src="Casos de uso DEFINITIVO.png" class="diagramas">
+<p><p id="qq">Éste diagrama muestra las acciones más significativas que pueden realizar los principales sujetos asociados al manenimiento de una pecera. Los dos sujetos principales son el usuario (dueño de la pecera) y el administrador, ambos pueden tanto iniciar como cerrar sesión en una hipotética aplicación. El usuario realiza el mantenimiento de su pecera, de manera preventiva, puede solicitarle suministros de cuidado a un proveedor como lo puede ser una veterinaria; de manera correctiva, puede medir los parámetros del agua utilizando nuestro sistema, si éstos sobrepasan tal umbral, se activará automáticamente el ciclo de reemplazo de agua, al mismo tiempo que, tanto el usuario como el administrador, recibirán una notificación al respecto. Por último, el administrador tendría acceso y control remoto del sistema, lo que le permite ejecutar acciones adicionaless, como activar y controlar el ciclo de reemplazo de agua en cualquier momento.</p></div>
+<div class="tab-pane fade" id="diagclases"><img src="UML DEFINITIVO Renovado final.png" class="diagramas">
+<p><p id="qq">Éste diagrama muestra un esquema general de la estructura del sistema. El "núcleo" del sistema se encuentra en la pecera, junto con los seres que en ella habitan; a la pecera se le asocia el mantenimiento, tanto preventivo como correctivo; el mantenimiento está ligado directamente con el sistema de cuidado; el sistema de cuidado se vincularía al usuario a través de una hipotética aplicación, la cual le enviaría notificaciones basadas en las estadísticas que arrojen las lecturas de los sensores de temperatura y turbidez, sensores que están directa y físicamente relacionados a la pecera.</p></div>
 
 <h4>
-Gracias por llegar hasta aquí! Si le interesa saber más, puede descargar la documentación completa en <a href="Trabajo práctico N°4.docx" download="Bienestar Acuático S.A.">éste enlace</a>, mientras tanto, seguiremos actualizando la página con más información, dejaremos un formulario para que nos envíes tus opiniones o preguntas, hasta la próxima!
+Gracias por visitar nuestro sitio! Si le interesa saber más, puede descargar la documentación completa en <a href="Trabajo práctico N°4.docx" download="Bienestar Acuático S.A.">éste enlace</a>, mientras tanto, seguiremos actualizando la página con más información, dejamos un formulario para que nos envíes tus opiniones o preguntas, hasta la próxima!
 </h4>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtnEiDNgp4W1aXRfFU-kns3fUDO6iYduZqy2mjKtOgxsWthw/viewform?embedded=true" width="640" height="932" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>  <p>
-  
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtnEiDNgp4W1aXRfFU-kns3fUDO6iYduZqy2mjKtOgxsWthw/viewform?embedded=true" width="640" height="932" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    <p>
+    
     <hr class="d-sm-none">
     </div>
   <p id="A">© Todos los derechos reservados a Bienestar Acuático S.A.
