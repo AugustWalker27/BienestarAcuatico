@@ -388,9 +388,10 @@ transition-duration: 1s;
 @media screen and (max-width: 760px) {
     /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
     body {
-      
         overflow-x: hidden;
-      
+              max-width: 100%;
+      width: auto;
+
     }
     .feriait1{
   max-width: 100%;
