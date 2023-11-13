@@ -14,7 +14,6 @@ margin-left: -200px;
 z-index: 999;
 }
 .google{
-  width: auto;
 }
 .feriait1{
   max-width: 100%;
@@ -143,11 +142,13 @@ z-index: 999;
     }
 
     #índice{
-      color: black;
+      color: white;
       z-index: 999;
+      max-width: 100%;
+      width: auto;
     }
     #índice:hover{
-      color: white;
+      color: blue;
     }
     #documento {
         color: blue;
@@ -389,10 +390,11 @@ transition-duration: 1s;
 @media screen and (max-width: 760px) {
     /* Ajusta los estilos según tus necesidades para pantallas pequeñas */
     body {
+      
         overflow-x: hidden;
-              max-width: 100%;
+        max-width: 3000px;
       width: auto;
-margin-right: 0px;
+      margin-right: 0px;
     }
     .feriait1{
   max-width: 100%;
@@ -422,7 +424,6 @@ display: flex;
 align-items: center; 
 z-index: 999;
 margin-left: 0px;
-
 }
     .fondo {
 background-image: url(eestn2.jpg);
