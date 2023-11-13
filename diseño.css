@@ -395,7 +395,7 @@ transition-duration: 1s;
       border: solid black 1px;
     }
     .videotemp{
-      max-width: 1000px;
+      max-width: 100%;
       width: auto;
       border: solid black 1px;
     }
