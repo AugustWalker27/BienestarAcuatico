@@ -391,7 +391,7 @@ transition-duration: 1s;
         overflow-x: hidden;
               max-width: 100%;
       width: auto;
-
+margin-right: 0px;
     }
     .feriait1{
   max-width: 100%;
