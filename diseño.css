@@ -389,6 +389,21 @@ transition-duration: 1s;
         overflow-x: hidden;
       
     }
+     .esquema{
+      max-width: 100%;
+      width: auto;
+      border: solid black 1px;
+    }
+    .videotemp{
+      max-width: 1000px;
+      width: auto;
+      border: solid black 1px;
+    }
+    .videobomba{
+      max-width: 100%;
+      width: auto;
+      border: solid black 1px;
+    }
     .letragrande{
 text-align: center;
 font-size: 25px;    
