@@ -418,9 +418,10 @@ margin-right: 0px;
 text-align: center;
 font-size: 25px;    
 display: flex;
-align-items: center;
-margin-left: -200px; 
+align-items: center; 
 z-index: 999;
+margin-left: 0px;
+
 }
     .fondo {
 background-image: url(eestn2.jpg);
